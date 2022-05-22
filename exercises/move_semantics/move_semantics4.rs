@@ -7,11 +7,11 @@
 fn main() {
     let mut vec1 = fill_vec();
 
-    println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
+    println!("vec1 has length {} content `{:?}`", vec1.len(), vec1);
 
     vec1.push(88);
 
-    println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
+    println!("vec1 has length {} content `{:?}`", vec1.len(), vec1);
 }
 
 // `fill_vec()` no longer takes `vec: Vec<i32>` as argument

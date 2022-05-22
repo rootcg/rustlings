@@ -6,11 +6,11 @@ fn main() {
 
     fill_vec(&mut vec0);
     
-    println!("{} has length {} content `{:?}`", "vec0", vec0.len(), vec0);
+    println!("vec0 has length {} content `{:?}`", vec0.len(), vec0);
 
     vec0.push(88);
 
-    println!("{} has length {} content `{:?}`", "vec0", vec0.len(), vec0);
+    println!("vec0 has length {} content `{:?}`", vec0.len(), vec0);
 }
 
 fn fill_vec(vec: &mut Vec<i32>) {
